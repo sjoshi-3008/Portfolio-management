@@ -51,7 +51,7 @@ fig = plt.figure(figsize=(12, 12))
 ax = fig.add_axes([0.0, 0.0, 0.8, 0.8])
 explode = (0, 0, 0.05, 0, 0, 0)
 pies=ax.pie(size, explode=explode,labels=l, labeldistance=1.2, autopct='%1.1f%%', startangle=90, textprops={'fontsize': 16})
-plt.title("Markovitz' portfolio with maximum return", fontsize=36)
+plt.title("shashwat' portfolio with maximum return", fontsize=36)
 for w in pies[0]:
     # set the id with the label.
     w.set_gid(w.get_label())
